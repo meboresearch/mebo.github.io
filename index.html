@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MEBO RESEARCH</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="xxx" crossorigin="anonymous">
+    <link href="css/montserrat.css" rel="stylesheet" type="text/css">
+    <link href="css/lato.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/timeline.css" type="text/css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body id="mainPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#mainPage">MEBO blog</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#intro">Ongoing clinical trials</a></li>
+                <li><a href="#dates">PAST studies</a></li>
+ 
+                <li><a href="#program">Past Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="jumbotron text-center">
+    <h1>MEBO Research, Inc.</h1>
+    <h3>(MEBO)
+	</h3>
+    <i>a sufferer-founded patient advocacy international campaign registered in the State of Florida, U.S., since April 21, 2010, under section 501(c)(3) of the Internal Revenue Code, classification of Public Charity. MEBO Research is also registered in England and Wales as a Not For Profit, Limited by Guarantee Company (2009). MEBO is a NORD and EURORDIS Organization Member and its directors are moderators of the Trimethylaminuria Community at RareConnect.org. MEBO is referenced as an Advocacy and Support Organization in websites like the Genetic Alliance and Orphanet. MEBO is the impacted group for the MRC Research Grant of £360,684, as noted in the 'Outcomes' Tab of the Gateway to Research, Research Councils UK site.  
+	</i>
+</div>
+
+<div id="intro" class="container-fluid row">
+    <div class="row" style="width: 66%; margin-left: auto; margin-right: auto;">
+        <div class="col-sm-8">
+            <h2>Ongoing clinical trials</h2>
+				
+
+ 					                        <small>May 1, 2021</small> 
+
+                <div class="containertime timeleft" style="margin-top: 0;">
+                    <div class="timecontent">
+                         <p></p>
+                    </div>
+                </div>
+                <div class="containertime timeright">
+                    
+                </div>
+                
+                <div class="session-break">
+                    <div class="session-title">
+
+                        <i class="fas fa-broom" style="font-size: 4rem; color: #F87217;"></i>
+                    </div>
+                </div>
+ 
+
+<div id="dates" class="container-fluid bg-grey">
+    <div class="row">
+    <ul class="tabs">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <h2>Completed studies</h2>
+			
+ 
+   <li> 			xxx
+		   <li> 	xxx
+			<br>
+
+
+
+<div id="program" class="container-fluid bg-grey">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <h2 style="margin-bottom: 0;">Past Events</h2>
+                        <p></p>
+				
+					                        <small>Friday, Oct. 16, 5:00pm</small> 
+
+                <div class="containertime timeleft" style="margin-top: 0;">
+                    <div class="timecontent">
+                         <p></p>
+                    </div>
+                </div>
+                <div class="containertime timeright">
+                    
+                </div>
+                
+                <div class="session-break">
+                    <div class="session-title">
+
+                        <i class="fas fa-music" style="font-size: 4rem; color: #c8a2c8;"></i>
+                    </div>
+                </div>
+ 
+
+<div id="contact" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <h2>Contact</h2>
+            <p>For further inquiries, please drop an <a href="mailto:info@meboresearch.org">email</a> or 
+			<a href="https://twitter.com/meboresearch"><i class="fab fa-twitter"></a></i>. 
+			We welcome all suggestions and comments. You can also <a href="...">
+			subscribe for our newsletter here</a>.</p>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</div>
+
+
+<footer class="container-fluid text-center bg-grey">
+    MEBO Research, Inc
+</footer>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#mainPage']").on('click', function (event) {
+
+            // Prevent default anchor click behavior
+            event.preventDefault()
+
+            // Store hash
+            var hash = this.hash
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 900, function () {
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash
+            })
+        })
+
+        $(window).scroll(function () {
+            $(".slideanim").each(function () {
+                var pos = $(this).offset().top
+
+                var winTop = $(window).scrollTop()
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide")
+                }
+            })
+        })
+    })
+</script>
+
+</body>
+</html>
+
+
+<!-- Add Google Maps -->
+<!--<script src="http://maps.googleapis.com/maps/api/js"></script>-->
+<!--<script>-->
+<!--/*var myCenter = new google.maps.LatLng(37.385270,-5.991906);-->
+
+<!--function initialize() {-->
+<!--var mapProp = {-->
+<!--center:myCenter,-->
+<!--zoom:17,-->
+<!--scrollwheel:false,-->
+<!--draggable:false,-->
+<!--mapTypeId:google.maps.MapTypeId.ROADMAP-->
+<!--};-->
+
+<!--var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);-->
+
+<!--var marker = new google.maps.Marker({-->
+<!--position:myCenter,-->
+<!--});-->
+
+<!--marker.setMap(map);-->
+<!--}-->
+
+<!--google.maps.event.addDomListener(window, 'load', initialize);*/-->
+<!--</script>-->
