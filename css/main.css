@@ -21,7 +21,7 @@ h4 {
 }
 
 .jumbotron {
-    background-color: #0074D9; /* #a71b40; #f4511e; */
+    background-color: #4682B4; /* #0074D9 #a71b40; #f4511e; */
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -130,7 +130,7 @@ h4 {
 
 .navbar {
     margin-bottom: 0;
-    background-color: #0074D9;
+    background-color: #4682B4; /* top panel steel blue; vs light 0074D9 */
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -145,7 +145,7 @@ h4 {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #0000FF !important; /*#a71b40 !important;*/
+    color: #4682B4 !important; /* steel blue #a71b40 !important;*/
     background-color: #fff !important;
 }
 
